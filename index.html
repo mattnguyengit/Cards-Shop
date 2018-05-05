@@ -16,43 +16,42 @@
             position:absolute; 
             display:none;
         }
+    .menu li:hover{
+        background-color: red; 
+    }
         .menu li:hover > ul
         {
             display:block;
-        }
-
-        .menu ul ul,
-        .menu li:hover > a,
-        .menu a:hover
-        {
-            opacity:0.8;
         } 
-        p > a{
-            color: #777;
-        }   
+        
+    p > a:hover{
+      color: red;
+      text-decoration:none;
+    }
+    p > a {
+      color: black;
+    }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="menu">
+
     <nav class="navbar navbar-default">
-  
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> 
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"></span><span class="glyphicon glyphicon-home"></span> K Card</a>
+        <a class="navbar-brand" href="#" style="color: black"><span class="glyphicon glyphicon-home"></span><b> K Card</b></a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li><a href="#">Hot Seller</a></li>
+            <li><a class="hot" href="#" style="color: black"><span class="glyphicon glyphicon-star" style="color: #f7ef00;"></span><b> Hot Seller</b></a></li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Brand</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Brand</b></a>
                 <ul class="dropdown-menu" style="min-width: 500px">
                     <div class="container-fluid">
                         <div class="row">
@@ -73,7 +72,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Birthday Card</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Birthday Card</b></a>
                 <ul class="dropdown-menu" style="min-width: 500px">
                     <div class="container-fluid">
                         <div class="row">
@@ -94,7 +93,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Occasion Card</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Occasion Card</b></a>
                 <ul class="dropdown-menu" style="min-width: 500px">
                     <div class="container-fluid">
                         <div class="row">
@@ -115,7 +114,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Love Card</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Love Card</b></a>
                 <ul class="dropdown-menu" style="min-width: 500px">
                     <div class="container-fluid">
                         <div class="row">
@@ -136,7 +135,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Love Card</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Love Card</b></a>
                 <ul class="dropdown-menu" style="min-width: 500px">
                     <div class="container-fluid">
                         <div class="row">
@@ -157,7 +156,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other Card </a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Other Card</b></a>
                 <ul class="dropdown-menu" style="min-width: 400px">
                     <div class="container-fluid">
                         <div class="row">
@@ -178,7 +177,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>More</b></a>
                 <ul class="dropdown-menu" style="min-width: 200px">
                     <div class="container-fluid">
                         <div class="row">
@@ -194,11 +193,6 @@
                 </ul>
             </li>
         </ul>
-        <form class="navbar-form navbar-left">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-            </div>
-      </form>
     </div>
     </nav>
     </div>
