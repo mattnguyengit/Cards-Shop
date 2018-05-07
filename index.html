@@ -6,26 +6,62 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style type="text/css">
-        .menu li ul
-        {
-            position:absolute; 
-            display:none;
+         .navbar-default{
+          margin:0;
         }
-    .menu li:hover{
-        background-color: red; 
-    }
-        .menu li:hover > ul
+        .name-bar {
+            float: left;
+            height: 30px;
+            padding: 15px 15px;
+            font-size: 20px;
+            line-height: 20px;
+            margin-left: 20px;
+            margin-right: 10px;
+            color: red;
+        }
+        .navbar-nav {
+            float: left;
+          
+        }
+        .name-bar:hover,
+        .name-bar:focus {
+            color: red;
+            text-decoration: none;
+        }
+        .glyphicon-star{
+            color: #f7ef00;
+        }
+        .navbar-default li:hover > ul
         {
             display:block;
         } 
         
-    p > a:hover{
-      color: red;
-      text-decoration:none;
-    }
-    p > a {
-      color: black;
-    }
+        p > a:hover{
+          color: red;
+          text-decoration:none;
+        }
+        p > a {
+          color: black;
+        }
+        .navbar-default .navbar-nav > li b {
+          display: block;
+          bottom: -10px;
+          z-index: 3;
+          width: 0%;
+          height: 3px;
+          -webkit-transition: 0.5s;
+          -moz-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s;
+          left: 0;
+        }
+        .navbar-default .navbar-nav > li:hover b {
+          width: 100%;
+        }
+        .bg-color-2 {
+          background-color: #ea7066;
+          }
+        
     .titleProduct {
       font-family: 'Lato';
       font-size: 150%;
@@ -40,31 +76,33 @@
   <div class="jumbotron" style="height: 170px" >
     <img src="./images/logo.png" alt="" style="float: left; width: 200px; margin-left: 50px; margin-top: -30px">
   </div>
-</div>
-    <div class="container">
-        <div class="menu">
 
+    <!-- Menu bar -->
     <nav class="navbar navbar-default">
+        <div class="container">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> 
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#My-Navbar"> 
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#" style="color: black"><span class="glyphicon glyphicon-home"></span><b> K Card</b></a>
+        <a class="name-bar" href="#"><span class="glyphicon glyphicon-home"></span> K Card</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="My-Navbar">
         <ul class="nav navbar-nav">
-            <li><a class="hot" href="#" style="color: black"><span class="glyphicon glyphicon-star" style="color: #f7ef00;"></span><b> Hot Seller</b></a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Subject Card</b></a>
-                <ul class="dropdown-menu" style="min-width: 500px">
+            <li><a href="#" style="color: black;font-size: 20px;font-family:'Andika'"><span class="glyphicon glyphicon-star"></span> Hot Seller</a>
+            <b class="bg-color-2"></b>
+            </li>
+            <li>
+                <a href="#" style="color: black; font-size: 20px;font-family:'Andika'">Subject Card</a>
+                <b class="bg-color-2"></b>
+                <ul class="dropdown-menu" style="width: 400px">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <p><a href="#">Birthday </a></p>
-                                <p><a href="#">Congratulations </a></p>
+                                <p><a href="#">Birthday</a></p>
+                                <p><a href="#">Congratulations</a></p>
                                 <p><a href="#">Family</a></p>
                                 <p><a href="#">Friend</a></p>                           
                             </div>
@@ -76,12 +114,13 @@
                             </div>
                         </div>
                     </div>                  
-                </ul>
+                </ul>     
             </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Holiday Card</b></a>
-                <ul class="dropdown-menu" style="min-width: 500px">
-                    <div class="container-fluid">
+            <li>
+                <a href="#" style="color: black;font-size: 20px;font-family:'Andika'">Holiday Card</a>
+                <b class="bg-color-2"></b>
+                <ul class="dropdown-menu" style="width: 400px">
+                  <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
                                 <p><a href="#">Christmas</a></p>
@@ -96,16 +135,18 @@
                                 <p><a href="#">Vietnamese Women's Day</a></p>
                             </div>
                         </div>
-                    </div>                  
+                    </div>                      
                 </ul>
             </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Brand</b></a>
-                <ul class="dropdown-menu" style="min-width: 500px">
-                    <div class="container-fluid">
+
+            <li>
+                <a href="#" style="color: black;font-size: 20px;font-family:'Andika'">Brand</a>
+                <b class="bg-color-2"></b>
+                <ul class="dropdown-menu" style="width: 400px">
+                  <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <p><a href="#">imFRIDAY</a></p>
+                                <p><a href="#">IMFRIDAY</a></p>
                                 <p><a href="#">HALIFA</a></p>
                                 <p><a href="#">Greenwood</a></p>
                                                       
@@ -116,41 +157,47 @@
                                 <p><a href="#">Tlive</a></p>
                             </div>
                         </div>
-                    </div>                  
+                    </div>            
                 </ul>
             </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Wedding Invitation</b></a>
-                
+            <li>
+                <a href="#" style="color: black;font-size: 20px;font-family:'Andika'">Wedding Invitation</a>
+                <b class="bg-color-2"></b>
             </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Handmade</b></a>
-                
+            <li>
+                <a href="#" style="color: black;font-size: 20px;font-family:'Andika'">Handmade</a>
+                <b class="bg-color-2"></b>
             </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>Sale</b></a>
-                
+            <li>
+                <a href="#" style="color: black;font-size: 20px;font-family:'Andika'">Sale</a>
+                <b class="bg-color-2"></b>
             </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black"><b>More</b></a>
-                <ul class="dropdown-menu" style="min-width: 200px">
-                    <div class="container-fluid">
-                        <div class="row">
+            <li>
+                <a href="#" style="color: black;font-size: 20px;font-family:'Andika'">More</a>
+                <b class="bg-color-2"></b>
+                <ul class="dropdown-menu">
+                  <div class="container-fluid">
+                    <div class="row">
                             <div class="col-sm-12">
-                                <p><a href="#">Action</a></p>
-                                <p><a href="#">Action</a></p>
-                                <p><a href="#">Action</a></p>
+                                <p><a href="#">Gift</a></p>
+                                <p><a href="#">Store Locator</a></p>
+                                <p><a href="#">Contact Us</a></p>
                                 <p><a href="#">Action</a></p>                           
                             </div>
-                            
-                        </div>
                     </div>
+                  </div>    
                 </ul>
             </li>
         </ul>
     </div>
-    </nav>
-    </div>
+</div>  
+    </nav>  
+
+
+
+
+<!-- Slibar -->
+<div class="container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -186,15 +233,16 @@
 
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
     </a>
   </div>
 </div>
-    </div>
+
+
+
+
 
 <div class="container" style="margin-top: 20px">
   <div class = "titleProduct">
@@ -487,7 +535,7 @@
                 </div>
                 </div>
             </div>
-        </div>
+        
 </footer>
 
 
