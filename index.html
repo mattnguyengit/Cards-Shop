@@ -8,71 +8,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style type="text/css">
-  body {
-color: #222;
-font-family: Arial, Tahoma, Verdana, sans-serif;
-font-size: 12px;
-line-height: 1.6;
-margin: 0;
-padding: 0;
-text-align: center;
-width: 1366px;
-}
-.header {
-text-align: center;
-padding: 0;
-top: 0;
-left: 0;
-background:url(thumb-1920-522621.jp) no-repeat;
-background-color: #E4EB20;
-}
-.footer {
-font-weight: bold;
-height: 50px;
-line-height: 50px;
-bottom: 0;
-left: 0;
-width: 100%;
-text-align: center;
-}
-        .userLogin ul{
-              
-              list-style-type: none;
-              text-align: center;
-              
-        }
-        .userLogin li{
-             
-              display: inline-block;
-              line-height: 40px;
-              margin-left:8px;
-        }
-        .userLogin a{
-              text-decoration: none;
-              color: white;
-              display: block;
-        }
-        div.menu{
-            position:
-        }
-        .menu li ul
-        {
-            position:absolute; 
-            display:none;
-        }
-
          .navbar-default{
           margin:0;
         }
         .name-bar {
             float: left;
             height: 30px;
-            padding: 15px 15px;
-            font-size: 20px;
+            padding-top: 10px;
+            font-size: 30px;
             line-height: 20px;
             margin-left: 10px;
             margin-right: 10px;
             color: red;
+            font-family: 'Avqest';
         }
         .navbar-nav {
             float: left;
@@ -82,9 +30,6 @@ text-align: center;
         .name-bar:focus {
             color: red;
             text-decoration: none;
-        }
-        .glyphicon-star{
-            color: #f7ef00;
         }
         .navbar-default li:hover > ul
         {
@@ -119,6 +64,7 @@ text-align: center;
         #My-Navbar li a{
           font-size: 20px;
           font-family:'Andika';
+          padding-top:25px;
         }
           @media (max-width: 1200px) {
             #My-Navbar  li  a{
@@ -131,7 +77,7 @@ text-align: center;
               
               }
               
-            #My-Navbar  li {
+            #My-Navbar  li {  
               padding-right: 10px;
               }
               }
@@ -149,74 +95,43 @@ text-align: center;
               line-height: 20px;
               font-size: 14px;
               margin-bottom: 5px;
-              
               }
-            
               #My-Navbar > li {
               padding-right: 5px;
               }
               }
-              
-
-        
-    .titleProduct {
-      font-family: 'Lato';
-      font-size: 150%;
-    }
-      div > h3,p {
-      font-family: Verdana;
-      color: red;
-    }
+          .hotsell{
+            background: url('https://thumbs.gfycat.com/AgitatedEdibleIberianmole-size_restricted.gif'); 
+            background-size: cover; 
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+          }
+          .sale{
+            background: url('https://statics-www.hotsale.com.mx/img/footer/03_logo_bottom.png'); 
+            background-size: cover; 
+            width: 50px;
+            height: 40px;
+            display: inline-block;
+          }
+          .navbar-default ul ul,
+          .navbar-default li:hover > a,
+          .navbar-default a:hover {
+            opacity:0.7;
+          }
+          
+          .titleProduct {
+              font-family: 'Lato';
+              font-size: 150%;
+            }
+          div > h3,p {
+              font-family: Verdana;
+              color: red;
+            }
     </style>
 </head>
 <body>
-  <div class="cont">
-  <div class="header" style="height: 150px;position: relative;height: 200px;"> <!-- Thắng em làm phần này -->
-  <div class="logo" style="float: left;width: 150px;height: 55px;margin: 50px 0 0 150px;">
-    <a href=""><img src="picture/logo.png"  style=" max-height:auto ;max-width: 200px "></a>
-  </div>
-  <div class="searching" style="position: relative;float: left;height: 25px;width: 260px;margin: 130px 0 0 150px;background-color: white;border-radius: 10px 10px 10px 10px" >
-        <form>
-    <input style="float: left;margin-left:6px; ;width: 100%;height: 25px  ;background-color:white;border: 0;border-radius: 10px 10px 10px 10px"  type="text" name="searching" id="searching" placeholder="Search your Special Card ....">
-        <button id="button" type="submit" style="width: 25px;height: 25px;position: absolute ;border: 0;z-index: 99;right: 0;top: 0;cursor: pointer;background: url(picture/698956-icon-111-search-128.png) no-repeat"></button>
 
-        </form>
-  </div>
-  <div class="userLogin" style=";float:right;width: 600px;height: 60px;margin-right: 50px; ">
-    <ul style="margin-right:60px ">
-        <li><a href="#">Customer Services</a></li>
-            <li><a href="#">|</a></li>
-        <li><a href="#">Your Card List</a></li>
-            <li><a href="#">|</a></li>
-            <li><a href="#">Gift Certifcates</a></li>
-            <li><a href="#">|</a></li>
-          <li><a style="" href="#"><img src="picture/Icons8-Windows-8-Users-Exit.ico" style="width:15px ;height:15px;margin-bottom: 5px ">Login</a></li>
-            <li><a href="#">|</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" style="color: black"></span> View Cart</a></li>
-        </ul>       
-  </div>
-  <div class="CC" style="float: right;height:60px;width: 500px;color: white;margin-top: 55px;margin-right: 120px; ">
-      <div style="float: left;position: relative;height:60px;width: 100px;margin-left: 70px">
-           
-        
-            <img style="float: left;margin-top: 15px" src="picture/search.png">
-            <p style="margin-top: 15px;margin-left: 15px;color: white">High quality</p>
-          
-      </div>
-      <div style="float: left;margin-left: 50px;height:60px;width: 100px">
-            
-            <img style="float: left;margin-top: 15px" src="picture/search.png">
-            <p style="margin-top: 10px;margin-left: 15px;color: white">Reimbursed for 3 days</p>
-            
-      </div>
-      <div style="margin-left: 50px;float: left;height:60px;width: 100px">
-
-          <img style="float: left;margin-top: 15px" src="picture/search.png">
-          <p style="margin-left:25px;margin-top: 10px;color: white ">Something here</p>
-      </div>
-  </div>
-</div>
-</div>
     <!-- Menu bar -->
     <nav class="navbar navbar-default" style="position: -webkit-sticky; position: sticky;top: 0; z-index: 100;">
         <div class="container">
@@ -226,12 +141,12 @@ text-align: center;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="name-bar" href="#"><span class="glyphicon glyphicon-home"></span> K Card</a>
+        <a class="name-bar" href="#"><span class="glyphicon glyphicon-home"></span></a>
     </div>
 
     <div class="collapse navbar-collapse" id="My-Navbar">
         <ul class="nav navbar-nav">
-            <li><a href="#" style="color: black;"><span class="glyphicon glyphicon-star"></span> Hot Seller</a>
+            <li><a href="#" style="color: black;padding-top: 21px;"><span class="hotsell"></span> Hot Seller</a>
             <b class="bg-color-2"></b>
             </li>
             <li>
@@ -309,7 +224,7 @@ text-align: center;
                 <b class="bg-color-2"></b>
             </li>
             <li>
-                <a href="#" style="color: black;">Sale</a>
+                <a href="#" style="color: black;padding-top: 1px;">Sale<span class="sale"></span> </a>
                 <b class="bg-color-2"></b>
             </li>
             <li>
