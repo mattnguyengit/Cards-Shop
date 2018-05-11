@@ -86,14 +86,31 @@
     .icon-search p{
       color: #ffffff;
     }
-    
-    @media (max-width: 992px) {
+    @media (min-width: 992px){
+      .carousel-inner>.item>img{
+            width:100%;
+            height:400px;           
+            }
+          }
+
+    @media (max-width: 991px) and (min-width:576px){
+      .carousel-inner>.item>img{
+            width:100%;
+            height:350px;           
+            }
       .icon-search{
-      display:none;
-    }
-              }
+        display:none;
+            }
+      }
     @media (max-width: 576px){
       #user-bar .user-bar1{
+        display:none;
+      }
+      .carousel-inner>.item>img{
+            width:100%;
+            height:200px;           
+      }
+      .icon-search{
         display:none;
       } 
     }
@@ -160,14 +177,9 @@
               margin:0px;
               padding-left:5px;
               padding-right:5px;
-              line-height: 30px;
               font-size: 17px;
-              margin-bottom: 5px;
               }
-            .slibar{
-            width:100%; 
-            height: 400px;
-            }
+            
             #My-Navbar  li {  
               padding-right: 10px;
               }
@@ -183,28 +195,30 @@
               margin:0px;
               padding-left:2px;
               padding-right:2px;
-              line-height: 20px;
               font-size: 14px;
-              margin-bottom: 5px;
               }
             #My-Navbar > li {
               padding-right: 5px;
               }
-            .slibar{
-              width:100%; 
-              height: 400px;
               }
-              }
-          
+          .navbar-default{
+            position: -webkit-sticky; 
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color:#ffbf00;
+          }
           .navbar-default ul ul,
           .navbar-default li:hover > a,
           .navbar-default a:hover {
             opacity:0.7;
           }
           .slibar{
-            width:100%; 
-            height: 450px;
+             width:100%;
           }
+          
+          
+          
           
           
 /* Thang them */
@@ -322,7 +336,7 @@
       </div>
     
     <!-- Menu bar -->
-    <nav class="navbar navbar-default" style="position: -webkit-sticky; position: sticky;top: 0; z-index: 100;">
+    <nav class="navbar navbar-default">
         <div class="container">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#My-Navbar"> 
@@ -330,17 +344,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="name-bar" href="#"><span><img src="picture/12121-200.png" style="height: 40px;width: 40px"></span></a>
+        <a class="name-bar" href="#"><span><img src="picture/12121-200.png" style="height: 40px;width: 40px;"></span></a>
     </div>
 
     <div class="collapse navbar-collapse" id="My-Navbar">
         <ul class="nav navbar-nav">
-            <li><a href="#" style="color: black; padding-bottom: 12.207px"><img src="https://thumbs.gfycat.com/AgitatedEdibleIberianmole-size_restricted.gif" style="width: 20px;
-            height: 20px;"> Hot Seller</a>
+            <li><a href="#" style="color: black;"><img src="https://thumbs.gfycat.com/AgitatedEdibleIberianmole-size_restricted.gif" style="width: 20px;height: 20px;margin-top: -10px;"> Hot Seller</a>
             <b class="bg-color-2"></b>
             </li>
             <li>
-                <a href="#" style="color: black;padding-bottom: 9.414px">Sale <img src="./picture/sale-icon.png" style="width: 35px; height: 25px;"> </a>
+                <a href="#" style="color: black;">Sale <img src="./picture/sale-icon.png" style="width: 35px; height: 25px;margin-top: -10px;"> </a>
                 <b class="bg-color-2"></b>
             </li>
             <li>
@@ -410,7 +423,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#" style="color: black; padding-bottom: 9.972px"><img src="./images/sale-icon.gif" style="width:25px"> Wedding Invitation</a>
+                <a href="#" style="color: black;"><img src="./images/sale-icon.gif" style="width:25px;margin-top: -10px;"> Wedding Invitation</a>
                 <b class="bg-color-2"></b>
             </li>
             <li>
@@ -435,19 +448,19 @@
 
 
 <!-- Slibar -->
-<div class="container-fluid">
+<div class="slibar">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">   
         <div class="carousel-inner">
             <div class="item active">
-                <img src="./images/slidebar4.gif" alt="Children Day" class="slibar">   
+                <img src="./images/slidebar4.gif" alt="Children Day">   
             </div>
 
             <div class="item">
-                <img src="./images/slidebar5.gif" alt="Big Sale Off" class="slibar">   
+                <img src="./images/slidebar5.gif" alt="Big Sale Off">   
             </div>
         
             <div class="item">
-                <img src="./images/slidebar3.jpg" alt="Love all" class="slibar">   
+                <img src="./images/slidebar3.jpg" alt="Love all">   
             </div>
         </div>
     </div>
