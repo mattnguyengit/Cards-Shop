@@ -8,6 +8,84 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style type="text/css">
+/* css header */
+#logo-header{
+      max-width:200px;
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto;
+
+    }
+    #user-bar {
+      float:right; 
+      text-align: right;
+    }
+    #user-bar img{
+      width:15px ;
+      height:15px;
+      margin-bottom: 5px ;
+    }
+        
+    #user-bar li{       
+      display: inline-block;
+      padding-top:10px;
+      margin-left:5px;
+    }
+    #user-bar a{
+      text-decoration: none;
+      color:#ffffff;
+    }
+    .glyphicon-shopping-cart{
+      color: black
+    }
+    #searching{
+      margin-top:30px;
+      margin-bottom:10px;
+      width: 100%;
+      height: 30px;
+      border: 0;
+      border-radius: 10px 10px 10px 10px
+    }
+    #searching-button{
+      margin-top:30px;
+      margin-bottom:10px;
+      margin-right:25px;
+      width: 25px;
+      height: 30px;
+      position: absolute;
+      border: 0;
+      z-index: 99;
+      right: 0px;
+      top: 0;
+      cursor: pointer;
+      background: url(picture/698956-icon-111-search-128.png) no-repeat white;
+    }
+    .icon-search{
+      margin-top:35px;
+      font-size:15px; 
+    }
+    .icon-search a{
+      text-decoration: none;
+    }
+    .icon-search p{
+      color: #ffffff;
+    }
+    
+    @media (max-width: 992px) {
+       /* #user-bar .user-bar1{
+        display:none;
+      } */
+      .icon-search{
+      display:none;
+    }
+              }
+    @media (max-width: 576px){
+      #user-bar .user-bar1{
+        display:none;
+      } 
+    }
+
+/* css menu */
          .navbar-default{
           margin:0;
         }
@@ -64,7 +142,7 @@
         #My-Navbar li a{
           font-size: 20px;
           font-family:'Andika';
-          padding-top:25px;
+          
         }
           @media (max-width: 1200px) {
             #My-Navbar  li  a{
@@ -100,20 +178,7 @@
               padding-right: 5px;
               }
               }
-          .hotsell{
-            background: url('https://thumbs.gfycat.com/AgitatedEdibleIberianmole-size_restricted.gif'); 
-            background-size: cover; 
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-          }
-          .sale{
-            background: url('https://statics-www.hotsale.com.mx/img/footer/03_logo_bottom.png'); 
-            background-size: cover; 
-            width: 50px;
-            height: 40px;
-            display: inline-block;
-          }
+          
           .navbar-default ul ul,
           .navbar-default li:hover > a,
           .navbar-default a:hover {
@@ -131,7 +196,66 @@
     </style>
 </head>
 <body>
-
+    <div class="container-fluid" id="header-web" style="background-color:#ffefb5;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12" id="user-bar">
+                  <ul>
+                        <li class="user-bar1">
+                          <a href="#">Customer Services</a>
+                          <span style="color:#ffffff">|</span>
+                        </li>
+                        <li class="user-bar1">
+                          <a href="#">Gift Certifcates</a>
+                          <span style="color:#ffffff">|</span>
+                        </li>
+                        <li>
+                          <a href="#"><img src="picture/Icons8-Windows-8-Users-Exit.ico">Login</a>
+                          <span style="color:#ffffff">|</span>
+                        </li>
+                        <li>
+                          <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> View Cart</a>
+                        </li>
+                  </ul>      
+            </div>
+        </div>
+    <div class="row">
+      <div class="container">
+        <div class="row">
+        
+      <div class="col-md-3" >
+              <a href=""><img src="picture/logo.png" id="logo-header"></a>
+            </div>
+            <div class="col-md-3">
+                    <form>
+                      <input  type="text" name="searching" id="searching" placeholder="Search...">
+                      <button id="searching-button" type="submit" ></button>
+                    </form>
+                </div>
+                <div class="col-sm-2 icon-search">
+                  <a href="#">
+                    <span class="glyphicon glyphicon-search" style="background-color:#ffffff; float:left"></span>
+                    <p>High quality</p>
+                    </a>
+                </div>
+                <div class="col-md-2 icon-search">
+                  <a href="#">
+                    <span class="glyphicon glyphicon-search" style="background-color:#ffffff;float:left"></span>
+                    <p>Reimbursed for 3 days</p>
+                    </a>
+                </div>
+                <div class="col-md-2 icon-search">
+                  <a href="#">
+                    <span class="glyphicon glyphicon-search" style="background-color:#ffffff;float:left"></span>
+                    <p>Genuine Products</p>
+                    </a>
+                </div>
+    </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    
     <!-- Menu bar -->
     <nav class="navbar navbar-default" style="position: -webkit-sticky; position: sticky;top: 0; z-index: 100;">
         <div class="container">
@@ -146,7 +270,8 @@
 
     <div class="collapse navbar-collapse" id="My-Navbar">
         <ul class="nav navbar-nav">
-            <li><a href="#" style="color: black;padding-top: 21px;"><span class="hotsell"></span> Hot Seller</a>
+            <li><a href="#" style="color: black; padding-bottom: 12.207px"><img src="https://thumbs.gfycat.com/AgitatedEdibleIberianmole-size_restricted.gif" style="width: 20px;
+            height: 20px;"> Hot Seller</a>
             <b class="bg-color-2"></b>
             </li>
             <li>
@@ -223,8 +348,8 @@
                 <a href="#" style="color: black;">Handmade</a>
                 <b class="bg-color-2"></b>
             </li>
-            <li>
-                <a href="#" style="color: black;padding-top: 1px;">Sale<span class="sale"></span> </a>
+            <li style="">
+                <a href="#" style="color: black;padding-bottom: 9.414px">Sale <img src="https://statics-www.hotsale.com.mx/img/footer/03_logo_bottom.png" style="width: 35px; height: 25px;"> </a>
                 <b class="bg-color-2"></b>
             </li>
             <li>
