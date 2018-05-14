@@ -4,7 +4,6 @@
     <link rel="icon" type="image/gif" href="./images/logo-title.png"/>
     <title>K-Card - Every day Card for you, Birthday card, Love Card ...</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="icon" href="./images/logo-title.png" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style type="text/css">
@@ -83,7 +82,7 @@
       background: url(picture/698956-icon-111-search-128.png) no-repeat white;
     }
     .icon-search{
-      margin-bottom:-40px;
+      margin-bottom:-30px;
       margin-top:15px;
       font-size:15px; 
     }
@@ -130,11 +129,19 @@
             float: left;
             height: 30px;
             padding-top:5px;
-            font-size: 30px;
-            line-height: 20px;
             margin-left:100px;
-            color: red;
-            font-family: 'Avqest';
+        }
+        .name-bar-image{
+            background: url('picture/anh-menu-1.png'); 
+            background-size: cover;
+            height: 40px;
+            width: 40px;
+        }
+        .name-bar-image:hover{
+            background: url('picture/anh-menu-2.png'); 
+            background-size: cover;
+            height: 40px;
+            width: 40px;
         }
         .navbar-nav {
             float: left;    
@@ -144,6 +151,7 @@
             color: red;
             text-decoration: none;
         }
+        
         .navbar-default li:hover > ul
         {
             display:block;
@@ -223,9 +231,64 @@
           .slibar{
              width:100%;
           }
-          
-          
-          
+          /* FORM ĐĂNG NHẬP, ĐĂNG KÝ */
+          .modal-title{
+            color:#8e5f13;
+          }
+          .modal-sm{
+            width:400px;
+          }
+          .form-user {
+  box-sizing: border-box;
+  width: 350px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 40px;
+  border-radius: 3px;
+}
+ 
+.input-user {
+  margin: 30px 25px;
+  width: 300px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #0e6252;
+}
+ .input-user:focus, 
+ .input-user:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+.input-user:focus::-webkit-input-placeholder, 
+.input-user:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 11px;
+  transform: translateY(-15px);
+  visibility: visible !important;
+}
+ 
+.submit-login {
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  width: 200px;
+  color: white;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.submit-login:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
           
           
 /* Thang them */
@@ -296,7 +359,7 @@
                           <span style="color:black">|</span>
                         </li>
                         <li>
-                          <a href="#"><span class="glyphicon glyphicon-user"></span> Login</a>
+                          <a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user"></span> Login</a>
                           <span style="color:black">|</span>
                         </li>
                         <li>
@@ -355,7 +418,10 @@
             </div>
           </div>
       </div>
-    
+      
+
+      
+
     <!-- Menu bar -->
     <nav class="navbar navbar-default">
         <div class="container">
@@ -365,7 +431,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="name-bar" href="#"><span><img src="picture/12121-200.png" style="height: 40px;width: 40px;"></span></a>
+        <a class="name-bar" style="opacity:1;" href="#"><p class="name-bar-image"></p></a>
     </div>
 
     <div class="collapse navbar-collapse" id="My-Navbar">
@@ -415,7 +481,7 @@
                                 <p><a href="#">New Year</a></p>
                                 <p><a href="#">Teacher 's Day</a></p>
                                 <p><a href="#">Valentine</a></p>
-                                <p><a href="#">Vietnamese Women's Day</a></p>
+                                <p><a href="#">Halloween</a></p>
                             </div>
                         </div>
                     </div>                      
@@ -796,5 +862,50 @@
                 </div>
             </div>
      </footer>
+     <div class="modal fade" id="login">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">LOGIN</h1>
+        </div>
+        <div class="modal-body">
+            <form class="form-user">
+        <input class="input-user" placeholder="Username" type="text" required="">
+        <input class="input-user" placeholder="Password" type="password" required="">
+        <button class="submit-login">Submit</button>
+      </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-toggle="modal" data-dismiss="modal" data-target="#registration">REGISTRATION</button>
+        </div>
+      </div>
+  </div>
+</div>
+
+    <!-- FORM ĐĂNG KÝ -->
+    <div class="modal fade" id="registration">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">REGISTRATION</h1>
+        </div>
+        <div class="modal-body">
+            <form class="form-user">
+        <input class="input-user" placeholder="E-mail" type="email" required="">
+        <input class="input-user" placeholder="Phone number" type="number" required="">
+        <input class="input-user" placeholder="Username" type="text" required="">   
+        <input class="input-user" placeholder="Password" type="password" required="">
+        <button class="submit-login">Submit</button>
+      </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-toggle="modal" data-dismiss="modal" data-target="#login">LOGIN</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
