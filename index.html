@@ -8,6 +8,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style type="text/css">
+        body {
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          background: url(picture/997951_0cc20034a3c386f4fc438838c5a89666.png_1024) ;
+          }
         /* css header */
         #header-web{
           text-align: center;
@@ -15,19 +21,15 @@
           left: 0;
           background:url(images/header-background.png) ;
           background-size: cover;
-          
+          padding-bottom:30px;
         }
-        body {
-          margin: 0;
-          padding: 0;
-          text-align: center;
-          background: url(picture/997951_0cc20034a3c386f4fc438838c5a89666.png_1024) ;
-          }
+        
       #logo-header{
-      max-width:200px;
-      display: block; 
-      margin-left: auto; 
-      margin-right: auto;
+        margin-top:-10px;
+        max-width:200px;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
 
     }
     #user-bar {
@@ -47,10 +49,14 @@
     }
     #user-bar a{
       text-decoration: none;
-      color:#ffffff;
+      color:black;
+    }
+    #user-bar a:hover{
+      color:red;
+      opacity:0.7;
     }
     #searching{
-      margin-top:30px;
+      margin-top:20px;
       margin-bottom:10px;
       width: 100%;
       height: 30px;
@@ -63,7 +69,7 @@
       border-radius: 10px 10px 10px 10px
     }
     #searching-button{
-      margin-top:32px;
+      margin-top:23px;
       margin-bottom:10px;
       margin-right:25px;
       width: 25px;
@@ -77,7 +83,8 @@
       background: url(picture/698956-icon-111-search-128.png) no-repeat white;
     }
     .icon-search{
-      margin-top:35px;
+      margin-bottom:-40px;
+      margin-top:15px;
       font-size:15px; 
     }
     .icon-search a{
@@ -282,15 +289,15 @@
                   <ul>
                         <li class="user-bar1">
                           <a href="#">Customer Services</a>
-                          <span style="color:#ffffff">|</span>
+                          <span style="color:black">|</span>
                         </li>
                         <li class="user-bar1">
                           <a href="#"><span class="glyphicon glyphicon-gift"></span> Gift Certifeates</a>
-                          <span style="color:#ffffff">|</span>
+                          <span style="color:black">|</span>
                         </li>
                         <li>
                           <a href="#"><span class="glyphicon glyphicon-user"></span> Login</a>
-                          <span style="color:#ffffff">|</span>
+                          <span style="color:black">|</span>
                         </li>
                         <li>
                           <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> View Cart</a>
@@ -301,35 +308,49 @@
     <div class="row">
       <div class="container">
         <div class="row">
-        
-      <div class="col-md-3" >
-              <a href=""><img src="picture/logo1.png" id="logo-header"></a>
-            </div>
-            <div class="col-md-3">
-                    <form>
-                      <input  type="text" name="searching" id="searching" placeholder="Search...">
-                      <button id="searching-button" type="submit" ></button>
-                    </form>
+                <div class="col-md-3">
+                  <a href=""><img src="picture/logo1.png" id="logo-header"></a>
                 </div>
-                <div class="col-sm-2 icon-search">
-                  <a href="#">
-                    <span class="glyphicon glyphicon-search" style="background-color:#ffffff; float:left"></span>
-                    <p>High quality</p>
-                    </a>
+                <div class="col-md-9" style="">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-md-5">
+                      </div>
+                      <div class="col-md-2 icon-search">
+                        <a href="#">
+                          <span class="glyphicon glyphicon-search" style="background-color:#ffffff; float:left"></span>
+                          <p>High quality</p>
+                        </a>
+                      </div>
+                      <div class="col-md-3 icon-search">
+                        <a href="#">
+                          <span class="glyphicon glyphicon-search" style="background-color:#ffffff;float:left"></span>
+                          <p>Reimbursed for 3 days</p>
+                        </a>
+                      </div>
+                      <div class="col-md-2 icon-search">
+                        <a href="#">
+                          <span class="glyphicon glyphicon-search" style="background-color:#ffffff;float:left"></span>
+                          <p>Genuine Products</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-5">
+                      <form>
+                        <input  type="text" name="searching" id="searching" placeholder="Search...">
+                        <button id="searching-button" type="submit" ></button>
+                      </form>
+                      </div>
+                      <div class="col-md-7">
+                      
+                      </div>
+                    </div>
+                  </div>
+                    
                 </div>
-                <div class="col-md-2 icon-search">
-                  <a href="#">
-                    <span class="glyphicon glyphicon-search" style="background-color:#ffffff;float:left"></span>
-                    <p>Reimbursed for 3 days</p>
-                    </a>
-                </div>
-                <div class="col-md-2 icon-search">
-                  <a href="#">
-                    <span class="glyphicon glyphicon-search" style="background-color:#ffffff;float:left"></span>
-                    <p>Genuine Products</p>
-                    </a>
-                </div>
-    </div>
+                
+        </div>
               </div>
             </div>
           </div>
