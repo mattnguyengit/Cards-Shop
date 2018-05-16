@@ -82,6 +82,7 @@
           padding: 0;
           text-align: center;
           background-color: #ECECEC;
+          background: url(./images/background-body.jpg);
           }
         /* css header */
         #header-web{
@@ -360,11 +361,11 @@
           
           
 /* Thang them */
-.col-sm-3:hover {
+.col-sm-3:hover .panel{
   cursor: pointer;
   border:1px solid rgb(216, 51, 51);
   opacity: 0.8;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 .panelBrand {
   border-color: #beddf7;
@@ -397,19 +398,30 @@
 }
 
         footer {
-    background-image: url("http://augstudy.com/australia/wp-content/uploads/2016/12/gradient_background-1.png");
-    background-repeat: repeat-x;
+    background: url("./images/background_footer.gif");
 } 
+.panel {
+	margin: 0;
+	padding: 0;
+}
 .titleProduct {
               font-family: 'Lato';
-              font-size: 150%;
-            }
-          div > h3,p {
-              font-family: Verdana;
+              font-size: 200%;
+              font-weight: bold;
               color: red;
+              text-align: left;
             }
-
+.titleProduct > img {
+	float: right;
+}
+.panel-heading {
+	font-weight: bold
+}
+.panel-footer {
+	font-style: italic;
+}
     </style>
+
 </head>
 <body>
   <div class="container-fluid">
@@ -676,10 +688,10 @@
 <!-- danh mục sản phẩm -->
 <div class="container" style="margin-top: 20px">
   <div class = "titleProduct">
-    <span style="float: left">Hot Seller</span>
-    <a href=""><span style="float: right">More</span></a>
-  </div> 
-  <hr>     
+    <div class="col-sm-11">Hot Seller</div>
+    <div class="col-sm-1"><a href="" ><img src="images/more-button.png" width="150%"></a></div>
+  </div>
+  <hr>
   <div class="row text-center">
     <div class="col-sm-3">
       <div class="panel panel-warning">
@@ -708,9 +720,10 @@
         <div class="panel-heading">Top 1 Trend</div>
         <div class="panel-body"><img src="./images/congratulation-card/cc1.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">$5.99</div>
-        <div class="addtocart">
-           <a href=""><img src="./images/add-to-cart.png" alt="" style="width: 80%"></a>
-        </div>
+       <!--  <div class="addtocart">
+          <a href=""><img src="./images/add-to-cart.png" alt="" style="width: 80%"></a>
+       </div> -->
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
     <div class="col-sm-3"> 
@@ -718,9 +731,10 @@
         <div class="panel-heading">Top 1 Favorite</div>
         <div class="panel-body"><img src="./images/birthday-card/bc5.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">$3,66</div>
-        <div class="addtocart">
+        <!-- <div class="addtocart">
            <a href=""><img src="./images/add-to-cart.png" alt="" style="width: 80%"></a>
-        </div>
+        </div> -->
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -728,9 +742,10 @@
 
 <div class="container" style="margin-top: 20px">
   <div class = "titleProduct">
-    <span style="float: left">Brand</span>
-    <a href=""><span style="float: right">More</span></a>
-  </div> 
+    <div class="col-sm-11">Brand</div>
+    <div class="col-sm-1"><a href="" ><img src="images/more-button.png" width="150%"></a></div>
+  </div>
+  <hr>
   <hr>     
   <div class="row text-center">
     <div class="col-sm-3">
@@ -738,6 +753,7 @@
         <div class="panel-heading">The Flower Basket</div>
         <div class="panel-body"><img src="./images/brand/the-flower-basket.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">I’m lovin’ it</div>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
     <div class="col-sm-3"> 
@@ -745,6 +761,7 @@
         <div class="panel-heading">CONSOLA</div>
         <div class="panel-body"><img src="./images/brand/consola.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Be all that you can be</div>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
     <div class="col-sm-3 "> 
@@ -752,6 +769,7 @@
         <div class="panel-heading">Nannie Grace</div>
         <div class="panel-body"><img src="./images/brand/nannie-grace.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">We’ll leave a light on for you</div>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
     <div class="col-sm-3 "> 
@@ -759,6 +777,7 @@
         <div class="panel-heading">Hokey Joke</div>
         <div class="panel-body"><img src="./images/brand/hokey-joke.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">The choice of a new generation</div>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -766,16 +785,18 @@
 
 <div class="container" style="margin-top: 20px">
   <div class = "titleProduct">
-    <span style="float: left">Birthday Card</span>
-    <a href=""><span style="float: right">More</span></a>
-  </div> 
-  <hr>     
+    <div class="col-sm-11">Birthday Card</div>
+    <div class="col-sm-1"><a href="" ><img src="images/more-button.png" width="150%"></a></div>
+  </div>
+  <hr>
+  <br>
   <div class="row">
     <div class="col-sm-3">
       <div class="panel panel-danger">
         <div class="panel-heading text-center">Birthday Card 1</div>
         <div class="panel-body"><img src="./images/birthday-card/bc1.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer text-center">$4</div>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
     <div class="col-sm-3"> 
@@ -783,6 +804,7 @@
         <div class="panel-heading text-center">Birthday Card 2</div>
         <div class="panel-body"><img src="./images/birthday-card/bc2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer text-center">$4,99</div>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
     <div class="col-sm-3"> 
@@ -790,6 +812,7 @@
         <div class="panel-heading text-center">Birthday Card 3</div>
         <div class="panel-body"><img src="./images/birthday-card/bc3.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer text-center">$5</div>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
     <div class="col-sm-3"> 
@@ -797,126 +820,14 @@
         <div class="panel-heading text-center">Birthday Card 4</div>
         <div class="panel-body"><img src="./images/birthday-card/bc4.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer text-center">$5.49</div>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>
       </div>
     </div>
   </div>
 </div>
+<br><br><br><br>
 
 
-<div class="container" style="margin-top: 20px">
-  <div class = "titleProduct">
-    <span style="float: left">Congratulation Cards</span>
-    <a href=""><span style="float: right">More</span></a>
-  </div> 
-  <hr>     
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container" style="margin-top: 20px">
-  <div class = "titleProduct">
-    <span style="float: left">Wedding Invitation</span>
-    <a href=""><span style="float: right">More</span></a>
-  </div> 
-  <hr>     
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container" style="margin-top: 20px">
-  <div class = "titleProduct">
-    <span style="float: left">Handmade</span>
-    <a href=""><span style="float: right">More</span></a>
-  </div> 
-  <hr>     
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-  </div>
-  <hr>
-</div>    
 
 <footer>
       <div class="container">
