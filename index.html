@@ -5,12 +5,13 @@
     <title>K-Card - Every day Card for you, Birthday card, Love Card ...</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 <script src="js/jquery-2.2.3.min.js"></script>
 <script type='text/javascript' src="js/bootstrap.min.js"></script>
 <script type='text/javascript' src="js/jquery.mycart.js"></script>
+
+
 
 <style type="text/css">
 /* css cart-icon */
@@ -25,9 +26,7 @@
   position: fixed;
   top: 0;
   z-index: 9999;
-
-  
-}
+  }
 /* share button */
         .icon-bar1 {
   z-index:9999;
@@ -177,6 +176,9 @@
       .icon-search{
         display:none;
             }
+      .icon-bar1{
+        display:none;
+      }
       }
     @media (max-width: 576px){
       #user-bar .user-bar1{
@@ -189,6 +191,9 @@
       .icon-search{
         display:none;
       } 
+      .icon-bar1{
+        display:none;
+      }
     }
 
 /* css menu */
@@ -566,16 +571,16 @@
             <li>
                 <a href="#" style="color: black;">Greeting-Card</a>
                 <b class="bg-color-2"></b>
-                <ul class="dropdown-menu" style="width: 500px">
+                <ul class="dropdown-menu" style="width: 400px">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-5">
                                 <p><a href="#">Birthday</a></p>
                                 <p><a href="#">Congratulations</a></p>
                                 <p><a href="#">Family</a></p>
                                 <p><a href="#">Friend</a></p>                           
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-7">
                                 <p><a href="#">Goodbye & Goodluck</a></p>
                                 <p><a href="#">Incentive</a></p>
                                 <p><a href="#">Love</a></p>
@@ -588,16 +593,16 @@
             <li>
                 <a href="#" style="color: black;">Holiday Card</a>
                 <b class="bg-color-2"></b>
-                <ul class="dropdown-menu" style="width: 500px">
+                <ul class="dropdown-menu" style="width: 400px">
                   <div class="container-fluid">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-7">
                                 <p><a href="#">Christmas</a></p>
                                 <p><a href="#">Father's Day</a></p>
                                 <p><a href="#">International Women's Day</a></p>
                                 <p><a href="#">Mother's Day</a></p>                           
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-5">
                                 <p><a href="#">New Year</a></p>
                                 <p><a href="#">Teacher 's Day</a></p>
                                 <p><a href="#">Valentine</a></p>
@@ -611,7 +616,7 @@
             <li>
                 <a href="#" style="color: black;">Brand</a>
                 <b class="bg-color-2"></b>
-                <ul class="dropdown-menu" style="width: 500px">
+                <ul class="dropdown-menu" style="width: 400px">
                   <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
@@ -982,18 +987,20 @@
             </div>
      </footer>
 
+
+
      <script type="text/javascript">
   $(function () {
 
     var goToCartIcon = function($addTocartBtn){
       var $cartIcon = $(".my-cart-icon");
-      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "9999"});
       $addTocartBtn.prepend($image);
       var position = $cartIcon.position();
       $image.animate({
         top: position.top,
         left: position.left
-      }, 500 , "linear", function() {
+      }, 300 , "linear", function() {
         $image.remove();
       });
     }
