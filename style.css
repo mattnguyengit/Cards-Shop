@@ -222,13 +222,19 @@
         {
             display:block;
         } 
-        
-        p > a:hover{
-          color: red;
-          text-decoration:none;
+        .nav-3 {
+          background: #EEA200;
         }
-        p > a {
-          color: black;
+        .link-3:hover {
+          background-color: #ffffff;
+          text-decoration: none;
+          color: #EEA200;
+        }
+        .link-3 {
+          transition: 0.4s;
+          color: #ffffff;
+          font-size: 20px;
+          text-decoration: none;
         }
         .navbar-default .navbar-nav > li b {
           display: block;
@@ -292,7 +298,7 @@
           .navbar-default ul ul,
           .navbar-default li:hover > a,
           .navbar-default a:hover {
-            opacity:0.7;
+            opacity:0.9;
           }
           .slibar{
              width:100%;
