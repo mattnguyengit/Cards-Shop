@@ -274,29 +274,27 @@ display: block;
 <!-- thong tin san pham -->
 <div class="container">
     <div class="well well-lg" style="background-color: #edf7f7">
-   <h1 style="font-family: IBM Plex Serif" id=>Handmade Card 05</h1>
+   <h1 style="font-family: IBM Plex Serif" id="tittle"></h1>
   <hr>   
       <div class="row">
         <div class="col-md-5">
           <div class="well well-lg" style="text-align: center; background-color: white"> 
             <span class="zoom" id="zoom1">
-        <img src='https://sv1.uphinhnhanh.com/images/2018/05/15/e53ea4c07d2409929a7312676f6563bb.jpg' width='100%' height='100%'/>
+        <img id="imageproduct" width='100%' height='100%'/>
       </span>
           </div>
       </div>
       <div class="col-md-7">
           <div class="well well-lg" style="background-color: white">
-            <h3 style="text-align: center; color: red" id=>Handmade 05 Card  </h3>
-          <span style="text-align: center;"><h4 id=>8$</h4></span>
+            <h3 style="text-align: center; color: red" id="tittle1"></h3>
+          <span style="text-align: center;"><h4 id="price"></h4></span>
           <hr>
           <span style="color: green">SPECIFICATIONS </span>
-                <p>Height: 26 cm X Length: 21 cm
-                  <br>
-                Freeship with 3 product.</p>
+                <p id="special1"></p>
+                <p id="special2"></p>
       <span style="color: green">DESCRIPTION</span> 
-      <p id= >Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.
-        <br>
-       This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.</p>
+      <p id="DESCRIPTION1"></p>
+      <p id="DESCRIPTION2"></p>
 
       <hr>
       Tags: <a href="">Handmade</a>, <a href="">Holiday</a>, <a href="">Valentine</a>
@@ -305,7 +303,7 @@ display: block;
               <span>Quantity:</span>
                 <br>
                 <input id="qty" type="tel" name="qty" value="1" min="1" max="10000">
-                <button class="btn btn-info my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button>
+                <button id="addcart" class="btn btn-info my-cart-btn" data-id="" data-name="" data-price="" data-quantity="" data-image=""><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button>
             </div> 
     </div>
       </div>
@@ -423,12 +421,7 @@ display: block;
 
   });
   </script>
-<!-- phong to anh -->
-  <script type="text/javascript">
-  $(document).ready(function(){
-  $('#zoom1').zoom();
-});
-</script>
+  
 
 <!-- add san pham -->
 <script type="text/javascript" src="js/data.js"></script>
@@ -441,23 +434,43 @@ display: block;
 	      var results = regex.exec( url );
 	      return results == null ? null : results[1];
   		}
+      $(document).ready(function(){
+      $("button").click(function(){
+        $("#addcart").attr({
+          "data-quantity":$("#qty").val(),  
+        });
+
+    });
+    });  
 
     	function showProduct() {
     	var id = getQuery('id');
 	      var obj = data[id];
-	      $("#datalist").append('<div class="col-sm-12">'+
-            '<div class="panel panelBrand">'+
-              '<div class="panel-heading">'+obj.title +'</div>'+
-              '<div class="panel-body"><img src="'+obj.url_photo+'" class="img-responsive" style="width:100%" alt="Image"></div>'+
-              '<div class="panel-footer">'+obj.description+'</div>'+
-              '<button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png">Add to Cart</button>'+
-            '</div>'+
-          '</div>');
+        $("#tittle").text(obj.title);
+        $("#imageproduct").attr({
+          "src":obj.url_photo
+        });
+        $("#tittle1").text(obj.title);
+        $("#price").text(obj.price);
+        $("#special1").text(obj.SPECIFICATIONS1);
+        $("#special2").text(obj.SPECIFICATIONS2);
+        $("#DESCRIPTION1").text(obj.DESCRIPTION1);
+        $("#DESCRIPTION2").text(obj.DESCRIPTION2);
+        $("#addcart").attr({
+          "data-id":obj.id,
+          "data-name":obj.title,
+          "data-price":parseInt(obj.price),
+          "data-image":obj.url_photo
+        });
 	      console.log(obj);
 	    
 	}
 	$(function () {
     showProduct();
+
+  $(document).ready(function(){
+  $('#zoom1').zoom();
+});
 });
 
     
