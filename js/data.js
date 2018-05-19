@@ -7,7 +7,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"01",
@@ -17,7 +18,9 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+
   },
   {
     "id":"02",
@@ -27,7 +30,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"03",
@@ -37,7 +41,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"04",
@@ -47,7 +52,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"05",
@@ -57,7 +63,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"06",
@@ -67,7 +74,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"07",
@@ -77,7 +85,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"08",
@@ -87,7 +96,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"09",
@@ -97,7 +107,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"10",
@@ -107,7 +118,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"11",
@@ -117,7 +129,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"12",
@@ -127,7 +140,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"13",
@@ -137,7 +151,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"14",
@@ -147,7 +162,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"15",
@@ -157,7 +173,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"16",
@@ -167,7 +184,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"17",
@@ -177,7 +195,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"18",
@@ -187,7 +206,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"19",
@@ -197,7 +217,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"20",
@@ -207,7 +228,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"21",
@@ -217,7 +239,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"22",
@@ -227,7 +250,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"23",
@@ -237,7 +261,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"24",
@@ -247,7 +272,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"25",
@@ -257,7 +283,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"26",
@@ -267,7 +294,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"27",
@@ -277,7 +305,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"28",
@@ -287,7 +316,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"29",
@@ -297,7 +327,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"30",
@@ -307,7 +338,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"31",
@@ -317,7 +349,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"32",
@@ -327,7 +360,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"33",
@@ -337,7 +371,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"34",
@@ -347,7 +382,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"35",
@@ -357,7 +393,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"36",
@@ -367,7 +404,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"37",
@@ -377,7 +415,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"38",
@@ -387,7 +426,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"39",
@@ -397,7 +437,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"40",
@@ -407,7 +448,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"41",
@@ -417,7 +459,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"42",
@@ -427,7 +470,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"43",
@@ -437,7 +481,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"44",
@@ -447,7 +492,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"45",
@@ -457,7 +503,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"46",
@@ -467,7 +514,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"47",
@@ -477,7 +525,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"48",
@@ -487,7 +536,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"49",
@@ -497,7 +547,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"50",
@@ -507,7 +558,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"51",
@@ -517,7 +569,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"52",
@@ -527,7 +580,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"53",
@@ -537,7 +591,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"54",
@@ -547,7 +602,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"55",
@@ -557,7 +613,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"56",
@@ -567,7 +624,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"57",
@@ -577,7 +635,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"58",
@@ -587,7 +646,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"59",
@@ -597,7 +657,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"60",
@@ -607,7 +668,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"61",
@@ -617,7 +679,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"62",
@@ -627,7 +690,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"63",
@@ -637,7 +701,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"64",
@@ -647,7 +712,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"65",
@@ -657,7 +723,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"66",
@@ -667,7 +734,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"67",
@@ -677,7 +745,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"68",
@@ -687,7 +756,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"69",
@@ -697,7 +767,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"70",
@@ -707,7 +778,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"71",
@@ -717,7 +789,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"72",
@@ -727,7 +800,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"73",
@@ -737,7 +811,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"74",
@@ -747,7 +822,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"75",
@@ -757,7 +833,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"76",
@@ -767,7 +844,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"77",
@@ -777,7 +855,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"78",
@@ -787,7 +866,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"79",
@@ -797,7 +877,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"80",
@@ -807,7 +888,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"81",
@@ -817,7 +899,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"82",
@@ -827,7 +910,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"83",
@@ -837,7 +921,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"84",
@@ -847,7 +932,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"85",
@@ -857,7 +943,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"86",
@@ -867,7 +954,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"87",
@@ -877,7 +965,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"88",
@@ -887,7 +976,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"89",
@@ -897,7 +987,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"90",
@@ -907,7 +998,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"91",
@@ -917,7 +1009,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"92",
@@ -927,7 +1020,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"93",
@@ -937,7 +1031,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"94",
@@ -947,7 +1042,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"95",
@@ -957,7 +1053,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"96",
@@ -967,7 +1064,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"97",
@@ -977,7 +1075,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"98",
@@ -987,7 +1086,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"99",
@@ -997,7 +1097,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"100",
@@ -1007,7 +1108,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"101",
@@ -1017,7 +1119,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"102",
@@ -1027,7 +1130,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"103",
@@ -1037,7 +1141,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"104",
@@ -1047,7 +1152,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"105",
@@ -1057,7 +1163,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"106",
@@ -1067,7 +1174,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"107",
@@ -1077,7 +1185,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"108",
@@ -1087,7 +1196,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"109",
@@ -1097,7 +1207,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"110",
@@ -1107,7 +1218,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"111",
@@ -1117,7 +1229,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"112",
@@ -1127,7 +1240,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"113",
@@ -1137,7 +1251,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"114",
@@ -1147,7 +1262,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"115",
@@ -1157,7 +1273,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"116",
@@ -1167,7 +1284,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"117",
@@ -1177,7 +1295,8 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
   {
     "id":"118",
@@ -1187,6 +1306,7 @@ var data = [
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
-    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion."
+    "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
   },
 ];

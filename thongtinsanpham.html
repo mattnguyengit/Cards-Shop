@@ -11,6 +11,8 @@
 <script type='text/javascript' src="js/bootstrap.min.js"></script>
 <script type='text/javascript' src="js/jquery.mycart.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet"> 
+<script src='https://cdn.rawgit.com/jackmoore/zoom/master/jquery.zoom.min.js'></script>
 <!-- font -->
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Skranji" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
@@ -238,18 +240,40 @@ display: block;
         <img id="imageproduct" width='100%' height='100%'/>
       </span>
           </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="well well-lg" style="text-align: center; background-color: white">
+                    <img id="imageproduct1" width='100%' height='100%'/>
+          
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="well well-lg" style="text-align: center; background-color: white"> 
+                    <img id="imageproduct2" width='100%' height='100%'/>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="well well-lg" style="text-align: center; background-color: white"> 
+                    <img id="imageproduct3" width='100%' height='100%'/>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
       <div class="col-md-7" style="text-align: left">
           <div class="well well-lg" style="background-color: white">
             <h3 style="text-align: center; color: red" id="tittle1"></h3>
           <span style="text-align: center;"><h4 id="price"></h4></span>
           <hr>
+          <br>
           <span style="color: green">SPECIFICATIONS </span>
                 <p id="special1"></p>
                 <p id="special2"></p>
-      <span style="color: green">DESCRIPTION</span> 
-      <p id="DESCRIPTION1"></p>
-      <p id="DESCRIPTION2"></p>
+          <span style="color: green">DESCRIPTION</span> 
+          <p id="DESCRIPTION1"></p>
+          <p id="DESCRIPTION2"></p>
+          <p id="DESCRIPTION3"></p>
 
       <hr>
       Tags: <a href="">Handmade</a>, <a href="">Holiday</a>, <a href="">Valentine</a>
@@ -257,13 +281,48 @@ display: block;
       <div>
               <span>Quantity:</span>
                 <br>
-                <input id="qty" type="tel" name="qty" value="1" min="1" max="10000">
+                <input id="qty" type="number" name="qty" value="1" min="1" max="10000">
                 <button id="addcart" class="btn btn-info my-cart-btn" data-id="" data-name="" data-price="" data-quantity="" data-image=""><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button>
             </div> 
     </div>
       </div>
   </div>
   </div>
+</div>
+<div class="container" style="margin-bottom: 100px;">
+   <h1 style="font-family: IBM Plex Serif;font-size: 20px;text-align: left;">YOU MAY ALSO LIKE</h1>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="box">
+        <img class="productImages" src="./images/sample.png" alt="">
+        <img class= "productInfo btn" src="./images/product-info.png">
+        <img class="productCart btn my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png" src="./images/cart.png">
+      </div>
+        <h2 class="productName">Product Name <span>| $XXX</span></h2>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img class="productImages" src="./images/sample.png" alt="">
+        <img class= "productInfo btn" src="./images/product-info.png">
+        <img class="productCart btn my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png" src="./images/cart.png">
+      </div>
+        <h2 class="productName">Product Name <span>| $XXX</span></h2>
+    </div><div class="col-sm-3">
+      <div class="box">
+        <img class="productImages" src="./images/sample.png" alt="">
+        <img class= "productInfo btn" src="./images/product-info.png">
+        <img class="productCart btn my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png" src="./images/cart.png">
+      </div>
+        <h2 class="productName">Product Name <span>| $XXX</span></h2>
+    </div><div class="col-sm-3">
+      <div class="box">
+        <img class="productImages" src="./images/sample.png" alt="">
+        <img class= "productInfo btn" src="./images/product-info.png">
+        <img class="productCart btn my-cart-btn" data-id="1" data-name="product 1" data-price="10" data-quantity="1" data-image="images/card-1.png" src="./images/cart.png">
+      </div>
+        <h2 class="productName">Product Name <span>| $XXX</span></h2>
+  </div>
+</div>
 </div>
 
 <!-- footer -->
@@ -467,11 +526,23 @@ display: block;
     });  
 
     	function showProduct() {
-    	var id = getQuery('id');
+    	var id = parseInt(getQuery('id'));
 	      var obj = data[id];
+        if (id=0) {
+          var obj1=data[id+1];
+          var obj2 = data[id+2];
+        }
+        else if(id=data.length) {
+          var obj1=data[id-1];
+          var obj2 = data[id-2];
+        }
+        else{
+        var obj1 = data[id-1];
+        var obj2 = data[id+1];
+        }
         $("#tittle").text(obj.title);
         $("#imageproduct").attr({
-          "src":obj.url_photo
+          "src":obj.url_photo,
         });
         $("#tittle1").text(obj.title);
         $("#price").text(obj.price);
@@ -479,24 +550,60 @@ display: block;
         $("#special2").text(obj.SPECIFICATIONS2);
         $("#DESCRIPTION1").text(obj.DESCRIPTION1);
         $("#DESCRIPTION2").text(obj.DESCRIPTION2);
+        $("#DESCRIPTION3").text(obj.DESCRIPTION3);
         $("#addcart").attr({
           "data-id":obj.id,
           "data-name":obj.title,
           "data-price":parseInt(obj.price),
           "data-image":obj.url_photo
         });
+        $("#imageproduct1").attr({
+          "src":obj1.url_photo,
+        });
+        $("#imageproduct2").attr({
+          "src":obj.url_photo,
+        });
+        $("#imageproduct3").attr({
+          "src":obj2.url_photo,
+        });
 	      console.log(obj);
+        console.log(obj1);
+        console.log(obj2);
 	    
 	}
 	$(function () {
     showProduct();
+}); 
+    </script> 
 
+<!-- hover anh -->
+<script type="text/javascript">
+  $(document).ready(function(){
+  $("#imageproduct1").click(function(){
+    $("#imageproduct").attr({
+        "src" : $("#imageproduct1").attr("src"),
+    });
+    $('#zoom1').zoom();
+  });
+
+  $("#imageproduct2").click(function(){
+    $("#imageproduct").attr({
+        "src" : $("#imageproduct2").attr("src"),
+    });
+    $('#zoom1').zoom();
+  });
+  $("#imageproduct3").click(function(){
+    $("#imageproduct").attr({
+        "src" : $("#imageproduct3").attr("src"),
+    });
+    $('#zoom1').zoom();
+  });
+});
+</script>
+    <script type="text/javascript">
   $(document).ready(function(){
   $('#zoom1').zoom();
 });
-});
-
-    
-    </script> 
+</script>
 </body>
 </html>
