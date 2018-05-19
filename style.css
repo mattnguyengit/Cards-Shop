@@ -256,8 +256,9 @@
           background-color: #ea7066;
         }
         #My-Navbar li a{
-          font-size: 20px;
-          font-family:'Andika';
+          font-size: 18px;
+         font-family: 'Hammersmith One', san-serif;
+          font-weight: bold
           
         }
           @media (max-width: 1200px) {
@@ -340,40 +341,81 @@
           
           
 /* Thang them */
-.col-sm-3:hover .panel{
-  cursor: pointer;
-  border:1px solid rgb(216, 51, 51);
-  opacity: 0.8;
-  transform: scale(1.1);
+div.categoryName {
+  float: left;
+  font-family: 'Bree Serif', serif;
+  font-size: 200%;
+  color: #ff4300;
 }
-.panelBrand {
-  border-color: #beddf7;
+div.viewMoreButton button{
+  float: right;
+  margin-top: 10px;
+  margin-right: -10px;
 }
-.panelBrand > .panel-heading {
-  color: #fff;
-  background-color: #beddf7;
-  border-color: #beddf7;
+.btn-danger {
+  font-family: 'Skranji', cursive;
 }
-.panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #beddf7;
+/* hover san pham */
+.box {
+  height: 260px;
+  overflow: hidden;
+  background: #4a3753;
+  z-index: -1;
 }
-.panelBrand > .panel-heading .badge {
-  color: #beddf7;
-  background-color: #fff;
-}
- > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #beddf7;
-}
-.panelBrand > .panel-heading {
-  color: black;
+.box img {
+  width: 100%;
+  transition: 0.5s;
 }
 
-.col-sm-3 > .panel >.addtocart {
+img.productInfo {
+  padding: 2px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  height: 50px;
+  width: 50px;
   visibility: hidden;
+  transition: 0.5s;
+  opacity: 0.8;
+
 }
-.col-sm-3:hover > .panel > .addtocart {
-  opacity: 1;
+img.productCart {
+  padding: 2px;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  height: 50px;
+  width: 50px;
+  visibility: hidden;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+
+.col-sm-3:hover img.productImages{
+  opacity: 0.1;
+  transform: scale(1.1)rotate(-2deg);
+}
+.col-sm-3:hover img.productInfo {
   visibility: visible;
+  left: 30%;
+}
+.col-sm-3:hover img.productCart {
+  visibility: visible;
+  right: 30%;
+}
+img.productInfo:hover {
+  opacity: 1;
+  background: #4c3e39;
+}
+
+img.productCart:hover {
+  opacity: 1;
+  background: #4c3e39;
+}
+h2.productName {
+  font-family: 'Chewy', cursive;
+  font-size: 170%;
 }
 
 .panel {
@@ -405,9 +447,9 @@ background-color: #3B3B3B;
             }
           div > h3,p {
               font-family: Verdana;
-             
-             /* menu dọc */
             }
+             /* menu dọc */
+            
             #menu-doc{
                 background-color:#FEF7AD ;
                 border: 1px solid #CCCCCC;
