@@ -16,7 +16,6 @@
   top: 0;
   z-index: 9999;
   }
- 
 /* share button */
         .icon-bar1 {
   z-index:9999;
@@ -359,7 +358,7 @@ div.viewMoreButton button{
 .box {
   height: 260px;
   overflow: hidden;
-  background: #4a3753;
+  background: #222233;
   z-index: -1;
 }
 .box img {
