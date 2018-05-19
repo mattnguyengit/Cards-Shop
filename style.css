@@ -16,6 +16,7 @@
   top: 0;
   z-index: 9999;
   }
+ 
 /* share button */
         .icon-bar1 {
   z-index:9999;
@@ -304,18 +305,11 @@
              width:100%;
           }
           /* FORM ĐĂNG NHẬP, ĐĂNG KÝ */
-          .modal-title{
-            color:#8e5f13;
-          }
-          .modal-sm{
-            width:400px;
-          }
-          .form-user {
-  box-sizing: border-box;
-  width: 350px;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
-  padding-bottom: 40px;
-  border-radius: 3px;
+.modal-title{
+  color:#8e5f13;
+}
+.modal-sm{
+  width:400px;
 }
  
 .input-user {
@@ -342,22 +336,6 @@
   font-size: 11px;
   transform: translateY(-15px);
   visibility: visible !important;
-}
- 
-.submit-login {
-  border: none;
-  background: #1abc9c;
-  cursor: pointer;
-  border-radius: 3px;
-  padding: 6px;
-  width: 200px;
-  color: white;
-  margin-left: 25px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-}
-.submit-login:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
           
           
@@ -398,9 +376,6 @@
   visibility: visible;
 }
 
-        footer {
-    background: url("./images/background_footer.gif");
-} 
 .panel {
   margin: 0;
   padding: 0;
@@ -422,8 +397,7 @@
   font-style: italic;
 }
    footer {
-    background-image: url("http://augstudy.com/australia/wp-content/uploads/2016/12/gradient_background-1.png");
-    background-size: cover;
+background-color: #3B3B3B;
 } 
 .titleProduct {
               font-family: 'Lato';
@@ -432,6 +406,7 @@
           div > h3,p {
               font-family: Verdana;
              
+             /* menu dọc */
             }
             #menu-doc{
                 background-color:#FEF7AD ;
@@ -460,22 +435,29 @@
 
           }
           #menu-doc a:hover{
-            color: ;
-            height: 100%;
-            opacity: 0.7;
+            color:#42f486;
+            font-size:19px;
           }
           #menu-doc ul li{
             border-bottom: 1px solid #CCCCCC;
-
           }
+
+      /* css footer */
           #footer {
           text-align: left;
           
           }
-          #footer a{
-            color: gray;
-            text-decoration: none;
+          #footer a {
+            color:#EAEAEA ;
           }
           #footer a:hover{
-            color: black;
+            color: white;
           }
+          #footer h4{
+            color: white;
+            font-size:20px;
+          }
+           #footer p {
+            color:#EAEAEA ;
+          }
+    

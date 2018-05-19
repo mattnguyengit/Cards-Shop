@@ -95,52 +95,7 @@
           </div>
       </div>
       
-       <!-- FORM ĐĂNG NHẬP -->
-     <div class="modal fade" id="login">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h1 class="modal-title">LOGIN</h1>
-        </div>
-        <div class="modal-body">
-            <form class="form-user">
-        <input class="input-user" placeholder="Username" type="text" required="">
-        <input class="input-user" placeholder="Password" type="password" required="">
-        <button class="submit-login">Submit</button>
-      </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-toggle="modal" data-dismiss="modal" data-target="#registration">REGISTRATION</button>
-        </div>
-      </div>
-  </div>
-</div>
-
-    <!-- FORM ĐĂNG KÝ -->
-    <div class="modal fade" id="registration">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h1 class="modal-title">REGISTRATION</h1>
-        </div>
-        <div class="modal-body">
-            <form class="form-user">
-        <input class="input-user" placeholder="E-mail" type="email" required="">
-        <input class="input-user" placeholder="Phone number" type="number" required="">
-        <input class="input-user" placeholder="Username" type="text" required="">   
-        <input class="input-user" placeholder="Password" type="password" required="">
-        <button class="submit-login">Submit</button>
-      </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-toggle="modal" data-dismiss="modal" data-target="#login">LOGIN</button>
-          
-        </div>
-      </div>
-    </div>
-  </div>
+      
    
 
     <!-- Menu bar -->
@@ -187,7 +142,7 @@
                 </ul>     
             </li>
             <li>
-                <a href="#" style="color: black;">Holiday Card</a>
+                <a href="trang-phu2.html" style="color: black;">Holiday Card</a>
                 <b class="bg-color-2"></b>
                 <ul class="dropdown-menu" style="width: 400px">
                   <div class="container-fluid nav-3">
@@ -210,7 +165,7 @@
             </li>
 
             <li>
-                <a href="#" style="color: black;">Brand</a>
+                <a href="trang-phu3.html" style="color: black;">Brand</a>
                 <b class="bg-color-2"></b>
                 <ul class="dropdown-menu" style="width: 400px">
                   <div class="container-fluid nav-3">
@@ -243,7 +198,7 @@
                             <div class="col-sm-12">
                                 <p><a class="link-3" href="#">Gift</a></p>
                                 <p><a class="link-3" href="#">Store Locator</a></p>
-                                <p><a class="link-3" href="#">Contact Us</a></p>                          
+                                <p><a class="link-3" href="location.html">Contact Us</a></p>                          
                             </div>
                     </div>
                   </div>    
@@ -480,9 +435,70 @@
                 </div>
             </div>
      </footer>
-     <div style="height: 50px;width: 100%;padding: 15px 0px 0px 115px;text-align: left;">Copyright 2000-2018 <p style="margin-left: 200px;margin-top: -20px">Oc'sCho'sTeam@gmail.com</p></div>
 
+      <div style="height: 50px;width: 100%;padding-left:12%;padding-top:1% ;text-align: left; background-color: #303030 ;color: #EFEEEE">Copyright 2000-2018 <p style="margin-left: 200px;margin-top: -20px;">Oc'sCho'sTeam@gmail.com</p></div>
+       <!-- FORM ĐĂNG NHẬP -->
+     <div class="modal fade" id="login">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">LOGIN</h1>
+        </div>
+        <form>
+          <div class="modal-body">
+            <input class="input-user" placeholder="Username" type="text" required="">
+            <input class="input-user" placeholder="Password" type="password" required="">
+          </div>
+          <div class="modal-footer">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6">
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-dismiss="modal" data-target="#registration">REGISTRATION</button>
+                </div>
+                <div class="col-sm-6">
+                  <button class="btn btn-default">LOGIN</button>
+                </div>
+            </div>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
 
+    <!-- FORM ĐĂNG KÝ -->
+    <div class="modal fade" id="registration">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">REGISTRATION</h1>
+        </div>
+        <form>
+          <div class="modal-body">
+            <input class="input-user" placeholder="E-mail" type="email" required="">
+            <input class="input-user" placeholder="Phone number" type="number" required="">
+            <input class="input-user" placeholder="Username" type="text" required="">   
+            <input class="input-user" placeholder="Password" type="password" required="">
+       
+          </div>
+          <div class="modal-footer">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6">
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-dismiss="modal" data-target="#login">LOGIN</button>
+                </div>
+                <div class="col-sm-6">
+                  <button type="button" class="btn btn-default  ">REGISTRATION</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
      <script type="text/javascript">
   $(function () {
@@ -530,7 +546,7 @@
 
   });
   </script>
-<script type="t ext/javascript">
+<!-- <script type="text/javascript">
 
     var data = [
       {
@@ -579,6 +595,6 @@
       var results = regex.exec( url );
       return results == null ? null : results[1];
   }
-</script>
+</script> -->
 </body>
 </html>
