@@ -288,6 +288,9 @@
             #My-Navbar > li {
               padding-right: 5px;
               }
+            .imageproductsmall{
+              display:none;
+              }
               }
           .navbar-default{
             position: -webkit-sticky; 
@@ -304,6 +307,7 @@
           .slibar{
              width:100%;
           }
+          
           /* FORM ĐĂNG NHẬP, ĐĂNG KÝ */
 .modal-title{
   color:#8e5f13;
@@ -501,4 +505,18 @@ background-color: #3B3B3B;
            #footer p {
             color:#EAEAEA ;
           }
+/* thong tin san pham */
+#imageproduct1, #imageproduct2, #imageproduct3:hover{
+cursor:pointer;  
+}
+.zoom {
+display:inline-block;
+position: relative;
+}
+.zoom img {
+display: block;
+}
+.zoom img: selection { 
+  background-color: transparent; 
+}
     
