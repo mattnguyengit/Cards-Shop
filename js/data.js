@@ -487,7 +487,7 @@ var data = [
   {
     "id":"44",
     "title":"Wedding's Day Card 03",
-    "url_photo":"image-product/Wedding/3.jpg",
+    "url_photo":"image-product/Wedding/3.png",
     "price":"8$",
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",

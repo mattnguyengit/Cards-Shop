@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/gif" href="./images/logo-title.png"/>
     <title>K-Card - Every day Card for you, Birthday card, Love Card ...</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -21,7 +20,6 @@
 <script type="text/javascript" src="js/data.js"></script>
 </head>
 <body>
-
   <div class="container-fluid">
     <div style="float: right; cursor: pointer;margin-right: 30px;">
       <div class="cart-icon">
@@ -104,11 +102,11 @@
           </div>
       </div>
       
-       
+      
    
 
     <!-- Menu bar -->
-     <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
         <div class="container">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#My-Navbar"> 
@@ -216,7 +214,8 @@
         </ul>
     </div>
 </div>  
-    </nav>    
+    </nav>  
+
 
 <!-- Slibar -->
 <div class="slibar">
@@ -237,27 +236,23 @@
     </div>
 </div>
 
-<div class="container" style="width: 80%;background-color:white;margin-bottom: 50px;height: 800px;margin-top: 50px ">
-  <div class="row">
-        <div class="col-md-3"  style="border: 1px solid black;height: 800px">  
-          <div id="menu-doc">                               
-          <ul>
-            <li><a href="#"><span class="glyphicon glyphicon-gift"></span> BirthDay</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-hand-down"></span>Congratulations</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-birthday-cake"></span>Family</a></li>
-            <li><a href="#">Friend</a></li>
-            <li><a href="#">Goodbye & Goodluck</a></li>
-            <li><a href="#">Incentive</a></li>
-            <li><a href="#">Love</a></li>
-            <li><a href="#">Thank You</a></li>
-          </ul>
-        </div>
-        </div>
-        <div class="col-md-9" style="border: 1px solid black;height: 800px">
-               
-        </div>
+<!-- danh mục sản phẩm -->
+<div class="container" style="margin-top: 20px">
+  <div class = "container-fluid">
+    <div class="categoryName"><img src="https://thumbs.gfycat.com/AgitatedEdibleIberianmole-size_restricted.gif" style="width: 25px;height: 25px;margin-top: -10px; margin-left: 10px"> Hot Sellers</div>
+  </div>
+  <hr style="margin-top:3px">
+  <div class="row" id="hotseller">    
+  </div>
+  <div class="row" id="hotseller1">    
+  </div>
+  <div class="row" id="hotseller2">    
+  </div>
+  <div class="row" id="hotseller3">    
   </div>
 </div>
+<br><br>
+
 
 <footer id="footer">
       <div class="container">
@@ -323,7 +318,7 @@
             </div>
      </footer>
       <div style="height: 50px;width: 100%;padding-left:12%;padding-top:1% ;text-align: left; background-color: #303030 ;color: #EFEEEE">Copyright 2000-2018 <p style="margin-left: 200px;margin-top: -20px;">Oc'sCho'sTeam@gmail.com</p></div>
-      <!-- FORM ĐĂNG NHẬP -->
+       <!-- FORM ĐĂNG NHẬP -->
      <div class="modal fade" id="login">
     <div class="modal-dialog modal-sm">
       <div class="modal-content">
@@ -386,7 +381,6 @@
     </div>
   </div>
 
-
      <script type="text/javascript">
   $(function () {
 
@@ -423,7 +417,7 @@
       },
       clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
         console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
-      },
+        },
       checkoutCart: function(products, totalPrice, totalQuantity) {
         var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
         alert(checkoutString)
@@ -433,6 +427,81 @@
 
   });
   </script>
-</body>
+  <script type="text/javascript">
+      function showProduct() {
+        for(i=20;i<=23;i++) {
+          var obj = data[i];
+          $("#hotseller").append('<div class="col-sm-3">'+
+            '<div class="box">'+
+            '<img class="productImages" src="'+obj.url_photo+'" alt="">'+
+            '<a href="thongtinsanpham.html?id='+i+'">'+
+            '<img class= "productInfo btn" src="./images/product-info.png"></a>'+
+            '<img class="productCart btn my-cart-btn" data-id="'+i+'" data-name="'+obj.title+'" data-price="'+parseInt(obj.price)+'" data-quantity="1" data-image="'+obj.url_photo+'" src="./images/cart.png">'+
+            '</div>'+
+            '<h2 class="productName">'+obj.title+'<span>| $'+obj.price+'</span></h2>'+
+            '</div>');
+          console.log(obj);
 
-</html> 
+        }
+      }
+      function showProduct1() {
+        for(i=24;i<=27;i++) {
+          var obj = data[i];
+          $("#hotseller1").append('<div class="col-sm-3">'+
+            '<div class="box">'+
+            '<img class="productImages" src="'+obj.url_photo+'" alt="">'+
+            '<a href="thongtinsanpham.html?id='+i+'">'+
+            '<img class= "productInfo btn" src="./images/product-info.png"></a>'+
+            '<img class="productCart btn my-cart-btn" data-id="'+i+'" data-name="'+obj.title+'" data-price="'+parseInt(obj.price)+'" data-quantity="1" data-image="'+obj.url_photo+'" src="./images/cart.png">'+
+            '</div>'+
+            '<h2 class="productName">'+obj.title+'<span>| $'+obj.price+'</span></h2>'+
+            '</div>');
+          console.log(obj);
+
+        }
+      }
+
+      function showProduct2() {
+        for(i=28;i<=31;i++) {
+          var obj = data[i];
+          $("#hotseller2").append('<div class="col-sm-3">'+
+            '<div class="box">'+
+            '<img class="productImages" src="'+obj.url_photo+'" alt="">'+
+            '<a href="thongtinsanpham.html?id='+i+'">'+
+            '<img class= "productInfo btn" src="./images/product-info.png"></a>'+
+            '<img class="productCart btn my-cart-btn" data-id="'+i+'" data-name="'+obj.title+'" data-price="'+parseInt(obj.price)+'" data-quantity="1" data-image="'+obj.url_photo+'" src="./images/cart.png">'+
+            '</div>'+
+            '<h2 class="productName">'+obj.title+'<span>| $'+obj.price+'</span></h2>'+
+            '</div>');
+          console.log(obj);
+
+        }
+      }
+      function showProduct3() {
+        for(i=32;i<=35;i++) {
+          var obj = data[i];
+          $("#hotseller3").append('<div class="col-sm-3">'+
+            '<div class="box">'+
+            '<img class="productImages" src="'+obj.url_photo+'" alt="">'+
+            '<a href="thongtinsanpham.html?id='+i+'">'+
+            '<img class= "productInfo btn" src="./images/product-info.png"></a>'+
+            '<img class="productCart btn my-cart-btn" data-id="'+i+'" data-name="'+obj.title+'" data-price="'+parseInt(obj.price)+'" data-quantity="1" data-image="'+obj.url_photo+'" src="./images/cart.png">'+
+            '</div>'+
+            '<h2 class="productName">'+obj.title+'<span>| $'+obj.price+'</span></h2>'+
+            '</div>');
+          console.log(obj);
+
+        }
+      }
+
+  $(function () {
+    showProduct();
+    showProduct1();
+    showProduct2();
+    showProduct3();
+  });
+  </script>
+  
+
+</body>
+</html>
