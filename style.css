@@ -407,6 +407,20 @@ img.productCart {
   visibility: visible;
   right: 30%;
 }
+
+
+.col-sm-4:hover img.productImages{
+  opacity: 0.1;
+  transform: scale(1.1)rotate(-2deg);
+}
+.col-sm-4:hover img.productInfo {
+  visibility: visible;
+  left: 30%;
+}
+.col-sm-4:hover img.productCart {
+  visibility: visible;
+  right: 30%;
+}
 img.productInfo:hover {
   opacity: 1;
   background: #4c3e39;
