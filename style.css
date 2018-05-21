@@ -534,4 +534,23 @@ display: block;
 .zoom img: selection { 
   background-color: transparent; 
 }
-    
+
+
+/* Employee */
+div.employeeName {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+div.employeeName span {
+  font-weight: bold;
+}
+div.employeeMajor {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+div.employeeMajor span {
+  color: #121212;
+  font-style: italic;
+}
