@@ -185,6 +185,9 @@
       .icon-bar1{
         display:none;
       }
+      .Occasions{
+        display:none;
+      }
     }
 
 /* css menu */
@@ -291,7 +294,10 @@
             .imageproductsmall{
               display:none;
               }
+            #giunguyenmenu{
+              display:none;
               }
+            }
           .navbar-default{
             position: -webkit-sticky; 
             position: sticky;
@@ -466,6 +472,11 @@ background-color: #3B3B3B;
               font-family: Verdana;
             }
              /* menu dọc */
+             #giunguyenmenu{
+            position: -webkit-sticky; 
+            position: sticky;
+            top: 30px;
+             }
             
             #menu-doc{
                 background-color:#FEF7AD ;
