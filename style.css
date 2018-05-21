@@ -263,6 +263,9 @@
           font-weight: bold
           
         }
+        @media (max-width: 1300px) {
+          
+        }
           @media (max-width: 1200px) {
             #My-Navbar  li  a{
               margin:0px;
@@ -366,7 +369,6 @@ div.viewMoreButton button{
 }
 /* hover san pham */
 .box {
-  height: 260px;
   overflow: hidden;
   background: #222233;
   z-index: -1;
@@ -399,7 +401,17 @@ img.productCart {
   transition: 0.5s;
   opacity: 0.8;
 }
+@media (max-width: 1300px) {
+  img.productInfo {
+  height: 40px;
+  width: 40px;
 
+}
+img.productCart {
+  height: 40px;
+  width: 40px;
+}  
+}
 
 .col-sm-3:hover img.productImages{
   opacity: 0.1;
@@ -441,26 +453,6 @@ h2.productName {
   font-size: 170%;
 }
 
-.panel {
-  margin: 0;
-  padding: 0;
-}
-.titleProduct {
-              font-family: 'Lato';
-              font-size: 200%;
-              font-weight: bold;
-              color: red;
-              text-align: left;
-            }
-.titleProduct > img {
-  float: right;
-}
-.panel-heading {
-  font-weight: bold
-}
-.panel-footer {
-  font-style: italic;
-}
    footer {
 background-color: #3B3B3B;
 } 
@@ -487,11 +479,9 @@ background-color: #3B3B3B;
           #menu-doc ul{
             list-style-type: none;
             text-align: center;
-             padding: 0px 20px 0px 20px;
+             padding: 0px;
            }
           #menu-doc li{
-            
-            
               height: 40px;
               padding-top: 8px;
 
@@ -506,7 +496,7 @@ background-color: #3B3B3B;
           }
           #menu-doc a:hover{
             color:#42f486;
-            font-size:19px;
+            font-size:16px;
           }
           #menu-doc ul li{
             border-bottom: 1px solid #CCCCCC;
