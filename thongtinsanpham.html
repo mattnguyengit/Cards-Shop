@@ -17,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Skranji" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+<script type="text/javascript" src="js/data.js"></script>
 </head>
 <body>
 	<div class="container-fluid">
@@ -453,28 +454,11 @@
   $(function () {
 
     var goToCartIcon = function($addTocartBtn){
-      var $cartIcon = $(".my-cart-icon");
-      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "9999"});
+      var $image = $('<img src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "9999"});
       $addTocartBtn.prepend($image);
-      var position = $cartIcon.position();
-      $image.animate({
-        top: position.top,
-        left: position.left
-      }, 700 , "linear", function() {
-        $image.remove();
-      });
     }
 
     $('.my-cart-btn').myCart({
-      currencySymbol: '$',
-      classCartIcon: 'my-cart-icon',
-      classCartBadge: 'my-cart-badge',
-      classProductQuantity: 'my-product-quantity',
-      classProductRemove: 'my-product-remove',
-      classCheckoutCart: 'my-cart-checkout',
-      affixCartIcon: true,
-      showCheckoutModal: true,
-      numberOfDecimals: 2,
       cartItems: [
       ],
       clickOnAddToCart: function($addTocart){
@@ -498,7 +482,7 @@
   
 
 <!-- add san pham -->
-<script type="text/javascript" src="js/data.js"></script>
+
     <script type="text/javascript">
 		function getQuery( name ) {
 	      url = location.href;
