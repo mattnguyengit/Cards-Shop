@@ -328,19 +328,19 @@
             </div>
             <div class="col-md-2" >
                 <h4>Payment Options</h4>
-                <span><img src="https://www.archiesonline.com/images/payment-option/visa.jpg">
-                    <img src="https://www.archiesonline.com/images/payment-option/master.jpg"></span>
-                <span><img src="https://www.archiesonline.com/images/payment-option/mestro.jpg">
-                        <img src="https://www.archiesonline.com/images/payment-option/american_express.jpg"></span>
-                <span><img src="https://www.archiesonline.com/images/payment-option/other.jpg">
-                        <img src="https://www.archiesonline.com/images/payment-option/net_banking.jpg"></span>
-                <span><img src="https://www.archiesonline.com/Images/payment-option/freecharge.jpg">
-                        <img src="https://www.archiesonline.com/Images/payment-option/Mobikwik.jpg"></span>
-                <span><img src="https://www.archiesonline.com/Images/payment-option/paypal.jpg">
-                        <img src="https://www.archiesonline.com/Images/payment-option/paytm.jpg"></span>
-                <span><img src="https://www.archiesonline.com/Images/payment-option/payUmoney.jpg">
-                        <img src="https://www.archiesonline.com/Images/payment-option/airtelmoney.jpg"></span>
-                <span><img src="https://www.archiesonline.com/Images/payment-option/amazonPay.jpg"></span>
+                <span><img src="images/payment/visa.jpg">
+                    <img src="images/payment/master.jpg"></span>
+                <span><img src="images/payment/mestro.jpg">
+                        <img src="images/payment/american_express.jpg"></span>
+                <span><img src="images/payment/other.jpg">
+                        <img src="images/payment/net_banking.jpg"></span>
+                <span><img src="images/payment/freecharge.jpg">
+                        <img src="images/payment/Mobikwik.jpg"></span>
+                <span><img src="images/payment/paypal.jpg">
+                        <img src="images/payment/paytm.jpg"></span>
+                <span><img src="images/payment/payUmoney.jpg">
+                        <img src="images/payment/airtelmoney.jpg"></span>
+                <span><img src="images/payment/amazonPay.jpg"></span>
                 </div>
 
             <div class="col-md-2">
@@ -428,28 +428,11 @@
   $(function () {
 
     var goToCartIcon = function($addTocartBtn){
-      var $cartIcon = $(".my-cart-icon");
-      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "9999"});
+      var $image = $('<img src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "9999"});
       $addTocartBtn.prepend($image);
-      var position = $cartIcon.position();
-      $image.animate({
-        top: position.top,
-        left: position.left
-      }, 300 , "linear", function() {
-        $image.remove();
-      });
     }
 
     $('.my-cart-btn').myCart({
-      currencySymbol: '$',
-      classCartIcon: 'my-cart-icon',
-      classCartBadge: 'my-cart-badge',
-      classProductQuantity: 'my-product-quantity',
-      classProductRemove: 'my-product-remove',
-      classCheckoutCart: 'my-cart-checkout',
-      affixCartIcon: true,
-      showCheckoutModal: true,
-      numberOfDecimals: 2,
       cartItems: [
       ],
       clickOnAddToCart: function($addTocart){
