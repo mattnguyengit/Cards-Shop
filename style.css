@@ -467,40 +467,58 @@ background-color: #3B3B3B;
              #giunguyenmenu{
             position: -webkit-sticky; 
             position: sticky;
-            top: 30px;
+            top: 60px;
              }
             
-            #menu-doc{
-                background-color:#FEF7AD ;
-                border: 1px solid #CCCCCC;
-                margin-top: 30px;
-                border-radius: 6px;
-            }
-          #menu-doc ul{
-            list-style-type: none;
-            text-align: center;
-             padding: 0px;
-           }
-          #menu-doc li{
-              height: 40px;
-              padding-top: 8px;
+            #cssmenu {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #D5D5D5;
+  border-radius: 10px 10px 10px 10px ;
+   background-color: #FFF495;
+   font-family: 'Hammersmith One'
 
-          }
-          #menu-doc a {
-              text-decoration: none;
-              display: block;
-              text-align: left;
-              margin-left: 10px;
-              color: black;
+}
+#cssmenu .titleCategory {
+  background: #FEBE15;
+  height: 15%;
+  border-radius: 10px 10px 0px 0px ;
 
-          }
-          #menu-doc a:hover{
-            color:#42f486;
-            font-size:16px;
-          }
-          #menu-doc ul li{
-            border-bottom: 1px solid #CCCCCC;
-          }
+}
+#cssmenu .titleCategory h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+}
+#cssmenu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  border-bottom: 1px solid #D5D5D5;
+  height: 40px;
+}
+#cssmenu a {
+  background: #ffffff;
+  border-radius: 2px;
+  display: block;
+  margin: 0;
+  padding: 4px;
+  text-decoration: none;
+  font-weight: normal;
+    color: black; background-color: #FFF495;
+    font-size: 15px;
+
+}
+#cssmenu a:hover{
+  background-color: #CDF188;
+  font-size: 16px;
+}
+
 
       /* css footer */
           #footer {
