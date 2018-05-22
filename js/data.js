@@ -1,38 +1,46 @@
 var data = [
+/*Christmas Card*/
   {
-
     "id":"00",
     "title":"Christmas Card 01",
-    "url_photo":"image-product/Holiday/Christmas/1.jpg",
+    "url_photo":"image-product/Occasion-card/Christmas-card/xc (1).jpg",
     "price":"12$",
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
-    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."     
+    "saleoff":"20%",
+    "hotseller":"0",
+    "brand":"Hokey Joke",
   },
   {
     "id":"01",
     "title":"Christmas Card 02",
-    "url_photo":"image-product/Holiday/Christmas/2.jpg",
+    "url_photo":"image-product/Occasion-card/Christmas-card/xc (2).jpg",
     "price":"14$",
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
-
+    "saleoff":"0",
+    "hotseller":"Super Sale",
+    "brand":"Nannie Grace",
   },
   {
     "id":"02",
     "title":"Christmas Card 03",
-    "url_photo":"image-product/Holiday/Christmas/3.jpg",
+    "url_photo":"image-product/Occasion-card/Christmas-card/xc (3).jpg",
     "price":"10$",
     "SPECIFICATIONS1":"Height: 26 cm X Length: 21 cm",
     "SPECIFICATIONS2":"Freeship with 3 product.",
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"03",
@@ -44,6 +52,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"04",
@@ -55,6 +66,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"05",
@@ -66,6 +80,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"06",
@@ -77,6 +94,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"07",
@@ -88,6 +108,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"08",
@@ -99,6 +122,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"09",
@@ -110,6 +136,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"10",
@@ -121,6 +150,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"11",
@@ -132,6 +164,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"12",
@@ -143,6 +178,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"13",
@@ -154,6 +192,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"14",
@@ -165,6 +206,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"15",
@@ -176,6 +220,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"16",
@@ -187,6 +234,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"17",
@@ -198,6 +248,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"18",
@@ -209,6 +262,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"19",
@@ -220,6 +276,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"20",
@@ -231,6 +290,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"21",
@@ -242,6 +304,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"22",
@@ -253,6 +318,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"23",
@@ -264,6 +332,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"24",
@@ -275,6 +346,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"25",
@@ -297,6 +371,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"27",
@@ -308,6 +385,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"28",
@@ -319,6 +399,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"29",
@@ -330,6 +413,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"30",
@@ -341,6 +427,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"31",
@@ -352,6 +441,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"32",
@@ -363,6 +455,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"33",
@@ -374,6 +469,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"34",
@@ -385,6 +483,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"35",
@@ -396,6 +497,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"36",
@@ -407,6 +511,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"37",
@@ -418,6 +525,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"38",
@@ -429,6 +539,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"39",
@@ -440,6 +553,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"40",
@@ -451,6 +567,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"41",
@@ -462,6 +581,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"42",
@@ -473,6 +595,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"43",
@@ -484,6 +609,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"44",
@@ -495,6 +623,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"45",
@@ -506,6 +637,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"46",
@@ -517,6 +651,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"47",
@@ -528,6 +665,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"48",
@@ -539,6 +679,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"49",
@@ -550,6 +693,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"50",
@@ -561,6 +707,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"51",
@@ -572,6 +721,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"52",
@@ -583,6 +735,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"53",
@@ -594,6 +749,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"54",
@@ -605,6 +763,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"55",
@@ -616,6 +777,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"56",
@@ -627,6 +791,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"57",
@@ -638,6 +805,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"58",
@@ -649,6 +819,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"59",
@@ -660,6 +833,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"60",
@@ -671,6 +847,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"61",
@@ -682,6 +861,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"62",
@@ -693,6 +875,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"63",
@@ -704,6 +889,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"64",
@@ -715,6 +903,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"65",
@@ -726,6 +917,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"66",
@@ -737,6 +931,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"67",
@@ -748,6 +945,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"68",
@@ -759,6 +959,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"69",
@@ -770,6 +973,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"70",
@@ -781,6 +987,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"71",
@@ -792,6 +1001,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"72",
@@ -803,6 +1015,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"73",
@@ -814,6 +1029,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"74",
@@ -825,6 +1043,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"75",
@@ -836,6 +1057,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"76",
@@ -847,6 +1071,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"77",
@@ -858,6 +1085,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"78",
@@ -869,6 +1099,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"79",
@@ -880,6 +1113,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"80",
@@ -891,6 +1127,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"81",
@@ -902,6 +1141,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"82",
@@ -913,6 +1155,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"83",
@@ -924,6 +1169,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"84",
@@ -935,6 +1183,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"85",
@@ -946,6 +1197,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"86",
@@ -957,6 +1211,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"87",
@@ -968,6 +1225,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"88",
@@ -979,6 +1239,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"89",
@@ -990,6 +1253,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"90",
@@ -1001,6 +1267,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"91",
@@ -1012,6 +1281,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"92",
@@ -1023,6 +1295,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"93",
@@ -1034,6 +1309,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"94",
@@ -1045,6 +1323,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"95",
@@ -1056,6 +1337,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"96",
@@ -1067,6 +1351,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"97",
@@ -1078,6 +1365,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"98",
@@ -1089,6 +1379,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"99",
@@ -1100,6 +1393,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"100",
@@ -1111,6 +1407,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"101",
@@ -1122,6 +1421,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"102",
@@ -1133,6 +1435,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"103",
@@ -1144,6 +1449,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"104",
@@ -1155,6 +1463,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"105",
@@ -1166,6 +1477,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"106",
@@ -1177,6 +1491,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"107",
@@ -1188,6 +1505,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"108",
@@ -1199,6 +1519,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"109",
@@ -1210,6 +1533,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"110",
@@ -1221,6 +1547,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"111",
@@ -1232,6 +1561,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"112",
@@ -1243,6 +1575,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"113",
@@ -1254,6 +1589,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"114",
@@ -1265,6 +1603,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"115",
@@ -1276,6 +1617,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"116",
@@ -1287,6 +1631,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"117",
@@ -1298,6 +1645,9 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
   {
     "id":"118",
@@ -1309,5 +1659,8 @@ var data = [
     "DESCRIPTION1":"Let the festive time be magical and spectacular for your near and dear ones with this beautiful greeting card.",
     "DESCRIPTION2":"This greeting card when opened gets beautifully lit and plays a soothing music, making it a perfect pick to convey your good wishes for them on the joyful occasion.",
     "DESCRIPTION3":"An elegant and beautiful bokeh lights Archies anniversary card that has words of love to bless a beautiful couple on their wedding anniversary."
+    "saleoff":"",
+    "hotseller":"",
+    "brand":"",
   },
 ];
