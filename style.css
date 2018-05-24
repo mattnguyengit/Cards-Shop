@@ -413,29 +413,29 @@ img.productCart {
 }  
 }
 
-.col-sm-3:hover img.productImages{
+.col-md-3:hover img.productImages{
   opacity: 0.1;
   transform: scale(1.1)rotate(-2deg);
 }
-.col-sm-3:hover img.productInfo {
+.col-md-3:hover img.productInfo {
   visibility: visible;
   left: 30%;
 }
-.col-sm-3:hover img.productCart {
+.col-md-3:hover img.productCart {
   visibility: visible;
   right: 30%;
 }
 
 
-.col-sm-4:hover img.productImages{
+.col-md-4:hover img.productImages{
   opacity: 0.1;
   transform: scale(1.1)rotate(-2deg);
 }
-.col-sm-4:hover img.productInfo {
+.col-md-4:hover img.productInfo {
   visibility: visible;
   left: 30%;
 }
-.col-sm-4:hover img.productCart {
+.col-md-4:hover img.productCart {
   visibility: visible;
   right: 30%;
 }
